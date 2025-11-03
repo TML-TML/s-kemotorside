@@ -14,6 +14,7 @@ body{
 	/*row-gap: 1rem;*/
 	grid-template-areas:	"header"
 							"nav"
+							"gallery-heading"
 							"main"
 							"aside"
 							"footer";
@@ -34,6 +35,20 @@ body{
 
 nav, section, aside{
 	margin: 0rem 1rem;
+}
+
+#gallery-heading {
+	margin: 1rem;
+	font-size: 1.5rem;
+}
+
+section > header {
+    flex-basis: 100%;
+    margin: 0 1rem;
+}
+
+section > header h2 {
+    margin-bottom: 0.5rem;
 }
 
 
