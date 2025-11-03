@@ -2,16 +2,15 @@
 <html lang="nb">
 	<title>nettside da yo</title>
 	
-	<head>
+		<!-- <head> -->
+			<meta name="description" content="Nettside med bilder og problemer">
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<meta name="description" content="Nettside med bilder og problemer">
-		<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<link href="style.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-		<link rel="stylesheet" href="style.css">
-	</head>
+			<link href="style.css" rel="stylesheet">
+			<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+			<link rel="stylesheet" href="style.css">
+		<!-- </head> -->
 	<body>
 		<script>
 		function mobilMenu(){
@@ -26,12 +25,12 @@
 			}
 		}
 		</script>
-	<div id="grid-container">
+	<main id="grid-container">
 		<header id="page-header">
 			<h1>Søkemotoroptimalisering</h1>
-		</header>
+		</header>							
 		<nav>
-			<h1>Logo</h1>
+			<h2>Logo</h2>
 			<i class="fas fa-hamburger" onclick="mobilMenu()"></i>
 			<ul id="ham" class="top-menu">
 				<li><a>Link</a></li>
@@ -50,78 +49,77 @@
 	
 			</ul>
 		</nav>
-		<main>
+		<section>
 			<article id="item-1">
 				<header>
-					<h1>Overskrift 1</h1>
+					<h3>Beste bilde</h3>
 				</header>
 				<img alt="bilde av interesse" src="https://picsum.photos/400/400">
 				<p>
-					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
+					Favoritt bilde
 				</p>
-				<a>Les mer</a>
+				<a></a>
 			</article>
 			<article id="item-2">
 				<header>
-					<h1>Overskrift 2</h1>
+					<h3>Ikke bra bilde</h3>
 				</header>
 				<img alt="Bilde av noe kult" src="https://picsum.photos/400/400">
 				<p>
-					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
+					Hater dette bilde
 				</p>
-				<a>Les mer</a>
+				<a>Les mer om mitt hat</a>
 			</article>
 			<article id="item-3">
 				<header>
-					<h1>Overskrift 3</h1>
+					<h3>Bra bilde</h3>
 				</header>
 				<img alt="" src="https://picsum.photos/400/400">
 				<p>
-					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
+					bra bilde
 				</p>
-				<a>Les mer</a>
+				<a></a>
 			</article>
 			<article>
 				<header>
-					<h1>Overskrift 1</h1>
+					<h3>Veldig bra bilde</h3>
 				</header>
 				<img alt="" src="https://picsum.photos/400/400">
 				<p>
-					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
+					ekstremt bra bilde
 				</p>
-				<a>Les mer</a>
 			</article>
 			<article>
 				<header>
-					<h1>Overskrift 2</h1>
+					<h3>Dårlig</h3>
 				</header>
 				<img alt="" src="https://picsum.photos/400/400">
 				<p>
-					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
+					Dårlig bilde
 				</p>
-				<a>Les mer</a>
+				<a></a>
 			</article>
-		</main>
+		</section>
 		<aside>
-			<h1>Side innhold</h1>
-			<section id="video">
-			</section>
-			<section id="rel-article">
+			<h3>Side innhold</h3>
+			<ul id="video">
+			</ul>
+			<nav id="rel-article">
 				<ul>
-					<li><a>Link</a></li>
-					<li><a>Link</a></li>
-					<li><a>Link</a></li>
-					<li><a>Link</a></li>
-					<li><a>Link</a></li>
+					<li><a>Link 1.</a></li>
+					<li><a>Link 2.</a></li>
+					<li><a>Link 3.</a></li>
+					<li><a>Link 4.</a></li>
+					<li><a>Link 5.</a></li>
 				</ul>
-			</section>			
-			<section id="google-btn">
-				<a class="btn">Google</a>
-			</section>
+			</nav>			
+			<ul id="google-btn">
+				<li><a class="btn">Google</a></li>
+			</ul>
 		</aside>
 		<footer>
 			Webutvikling 2024
 		</footer>
-	</div>
+	</main>
 	</body>
 </html>
